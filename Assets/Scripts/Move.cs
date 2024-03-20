@@ -4,11 +4,11 @@ using UnityEngine;
 
 public class Move : MonoBehaviour
 {
-     public float moveSpeed = 5f; // ความเร็วในการเคลื่อนที่
+   public float moveSpeed = 5f; // ความเร็วในการเคลื่อนที่
     public float tiltAngle = 15f; // มุมที่วัตถุจะเอียง
     public GameObject bulletPrefab; // โปรเจคของกระสุน
     public Transform bulletSpawnPoint; // จุดเริ่มต้นของกระสุน
-    public float bulletSpeed = 100f; // ความเร็วของกระสุน
+    public float bulletSpeed = 10f; // ความเร็วของกระสุน
 
     void Start()
     {
