@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 public class Score : MonoBehaviour
 {
@@ -28,6 +29,8 @@ public class Score : MonoBehaviour
             scoreText.text = "SCORE = " + score;
             Destroy(other.gameObject);
             audioSource.PlayOneShot(itemSound);
+            
         }
     }
+    
 }
