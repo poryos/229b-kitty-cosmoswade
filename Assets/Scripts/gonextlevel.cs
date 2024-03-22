@@ -11,7 +11,6 @@ public class gonextlevel : MonoBehaviour
     {
         if (!string.IsNullOrEmpty(Level2))
         {
-            // ‚À≈¥©“°∂—¥‰ª
             SceneManager.LoadScene(Level2);
         }
         else

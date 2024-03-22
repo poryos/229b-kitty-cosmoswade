@@ -5,8 +5,14 @@ using UnityEngine;
 public class ChangeObjectOnCollision : MonoBehaviour
 {
     public GameObject newObjectPrefab; // วัตถุใหม่ที่จะแทนที่วัตถุเก่า
+    public GameObject restartMenu;
     public bool destroyOldObject = true; // ตัวแปรที่บอกว่าจะทำลายวัตถุเก่าหรือไม่
 
+    void Start()
+    {
+        restartMenu.SetActive(false);
+    }
+    
     private void OnCollisionEnter(Collision collision)
     {
         // ตรวจสอบว่าวัตถุที่ชนมี Tag ที่เราต้องการหรือไม่
@@ -19,7 +25,9 @@ public class ChangeObjectOnCollision : MonoBehaviour
             if (destroyOldObject)
             {
                 Destroy(gameObject);
+                restartMenu.SetActive(true);
             }
+            
         }
     }
 }
