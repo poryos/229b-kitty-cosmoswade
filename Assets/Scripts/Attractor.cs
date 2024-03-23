@@ -8,7 +8,7 @@ public class Attractor : MonoBehaviour
     [SerializeField] Rigidbody rb;
     const float G = 6.674f;
 
-    public float attractionRange = 10f; // ÃÐÂÐ·Ò§ÊÓËÃÑºáÃ§´Ö§´Ù´
+    public float attractionRange = 10f; // ï¿½ï¿½ï¿½Ð·Ò§ï¿½ï¿½ï¿½ï¿½Ñºï¿½Ã§ï¿½Ö§ï¿½Ù´
 
     public static List<Attractor> Attractors;
 
@@ -19,6 +19,8 @@ public class Attractor : MonoBehaviour
             if (attractor != this)
             {
                 float distance = Vector3.Distance(transform.position, attractor.transform.position);
+                Debug.Log("Distance to " + attractor.name + ": " + distance);
+
                 if (distance <= attractionRange)
                 {
                     Attract(attractor);
