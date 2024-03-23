@@ -23,6 +23,10 @@ public class Score : MonoBehaviour
             SceneManager.LoadScene(2);
             Debug.Log("kuyyyyyy");
         }
+		if (score == 78)
+        {
+            SceneManager.LoadScene(2);
+        }
     }
 
     private void OnTriggerEnter(Collider other)

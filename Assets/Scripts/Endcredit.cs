@@ -23,7 +23,10 @@ public class Endcredit : MonoBehaviour
         if (score1 == 50)
         {
             SceneManager.LoadScene(3);
-            Debug.Log("kuyyyyyy");
+        }
+        if (score1 == 51)
+        {
+            SceneManager.LoadScene(3);
         }
     }
 
