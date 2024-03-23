@@ -8,7 +8,7 @@ public class Attractor : MonoBehaviour
     [SerializeField] Rigidbody rb;
     const float G = 6.674f;
 
-    public float attractionRange = 10f; 
+    public float attractionRange = 10f;
 
     public static List<Attractor> Attractors;
 
@@ -19,7 +19,6 @@ public class Attractor : MonoBehaviour
             if (attractor != this)
             {
                 float distance = Vector3.Distance(transform.position, attractor.transform.position);
-                Debug.Log("Distance to " + attractor.name + ": " + distance);
 
                 if (distance <= attractionRange)
                 {
@@ -38,6 +37,11 @@ public class Attractor : MonoBehaviour
         Attractors.Add(this);
     }
 
+    private void OnDestroy()
+    {
+        Attractors.Remove(this);
+    }
+
     void Attract(Attractor other)
     {
         Rigidbody rb2 = other.rb;
@@ -45,9 +49,16 @@ public class Attractor : MonoBehaviour
         Vector3 direction = rb.position - rb2.position;
         float distance = direction.magnitude;
 
-        float forceMagnitude = G * (rb.mass * rb2.mass) / Mathf.Pow(distance, 2);
+        
+        if (distance == 0f)
+        {
+            return;
+        }
+
+        float forceMagnitude = G * (rb.mass * rb2.mass) / (distance * distance);
         Vector3 finalForce = direction.normalized * forceMagnitude;
 
-        rb2.AddForce(finalForce);
+        
+        rb2.MovePosition(rb2.position + finalForce * Time.fixedDeltaTime);
     }
 }
