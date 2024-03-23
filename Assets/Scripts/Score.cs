@@ -16,9 +16,13 @@ public class Score : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
-        
+        if (score == 77)
+        {
+            SceneManager.LoadScene(2);
+            Debug.Log("kuyyyyyy");
+        }
     }
 
     private void OnTriggerEnter(Collider other)
