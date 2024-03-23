@@ -8,7 +8,7 @@ public class Attractor : MonoBehaviour
     [SerializeField] Rigidbody rb;
     const float G = 6.674f;
 
-    public float attractionRange = 10f; // ���зҧ����Ѻ�ç�֧�ٴ
+    public float attractionRange = 10f; 
 
     public static List<Attractor> Attractors;
 
