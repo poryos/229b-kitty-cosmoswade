@@ -2741,7 +2741,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1885730046}
   - component: {fileID: 1885730045}
-  - component: {fileID: 1885730044}
   - component: {fileID: 1885730043}
   m_Layer: 0
   m_Name: Camera2
@@ -2765,14 +2764,6 @@ MonoBehaviour:
   target: {fileID: 583921102}
   smoothSpeed: 0.125
   offset: {x: 0, y: 0, z: 0}
---- !u!81 &1885730044
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1885730042}
-  m_Enabled: 1
 --- !u!20 &1885730045
 Camera:
   m_ObjectHideFlags: 0
