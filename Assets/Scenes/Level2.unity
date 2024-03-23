@@ -660,7 +660,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 618398703}
   serializedVersion: 4
-  m_Mass: 50000
+  m_Mass: 100000
   m_Drag: 0
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -700,8 +700,8 @@ ConstantForce:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 618398703}
-  m_Enabled: 1
-  m_Force: {x: 250000, y: 0, z: 0}
+  m_Enabled: 0
+  m_Force: {x: 2500000, y: 0, z: 0}
   m_RelativeForce: {x: 0, y: 0, z: 0}
   m_Torque: {x: 0, y: 0, z: 0}
   m_RelativeTorque: {x: 10000000, y: 0, z: 0}
@@ -2812,7 +2812,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1955259055}
   - component: {fileID: 1955259054}
-  - component: {fileID: 1955259053}
   - component: {fileID: 1955259052}
   m_Layer: 0
   m_Name: Camera2
@@ -2836,14 +2835,6 @@ MonoBehaviour:
   target: {fileID: 1161706153}
   smoothSpeed: 0.125
   offset: {x: 0, y: 0, z: 0}
---- !u!81 &1955259053
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1955259051}
-  m_Enabled: 0
 --- !u!20 &1955259054
 Camera:
   m_ObjectHideFlags: 0
