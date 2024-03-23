@@ -1,4 +1,4 @@
-using System.Collections;
+	using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -27,6 +27,10 @@ public class Endcredit : MonoBehaviour
         if (score1 == 51)
         {
             SceneManager.LoadScene(3);
+        }
+    	 if (Input.GetKeyUp(KeyCode.U))
+        {
+            score1 = 45;
         }
     }
 

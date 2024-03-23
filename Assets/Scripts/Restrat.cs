@@ -7,7 +7,6 @@ public class RestartButton : MonoBehaviour
 {
     public void RestartGame()
     {
-        // โหลดซีนปัจจุบันอีกครั้ง
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 }

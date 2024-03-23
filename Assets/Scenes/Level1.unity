@@ -15858,7 +15858,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5760ea2bd887bed47a0dbb090bbc3305, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 1200
+  moveSpeed: 500
   rotationSpeed: 400
   maxPitchAngle: 360
   minPitchAngle: -360
@@ -50545,7 +50545,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {fileID: 583921102}
   smoothSpeed: 0.125
-  offset: {x: 0, y: 0, z: 0}
+  offset: {x: 0, y: 0, z: -50}
 --- !u!20 &1885730045
 Camera:
   m_ObjectHideFlags: 0
