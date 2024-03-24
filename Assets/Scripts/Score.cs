@@ -27,11 +27,6 @@ public class Score : MonoBehaviour
         {
             SceneManager.LoadScene(2);
         }
-
-        if (Input.GetKeyUp(KeyCode.U))
-        {
-            score = 70;
-        }
     }
 
     private void OnTriggerEnter(Collider other)

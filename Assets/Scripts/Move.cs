@@ -31,11 +31,6 @@ public class AirplaneMovement : MonoBehaviour
         {
             Shoot();
         }
-		if (Input.GetKeyUp(KeyCode.Y))
-    	{
-     	   moveSpeed += 500f; 
-  	      StartCoroutine(ResetSpeed()); 
-  		}	
     }
 	 IEnumerator ResetSpeed()
 	{
