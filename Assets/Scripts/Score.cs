@@ -14,14 +14,11 @@ public class Score : MonoBehaviour
         score = 0;
         audioSource = GetComponent<AudioSource>();
     }
-
-    // Update is called once per frame
     void FixedUpdate()
     {
         if (score == 50)
         {
             SceneManager.LoadScene(2);
-            Debug.Log("kuyyyyyy");
         }
 		if (score == 51)
         {
