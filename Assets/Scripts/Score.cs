@@ -11,7 +11,7 @@ public class Score : MonoBehaviour
     public AudioClip itemSound;
     void Start()
     {
-        score = 0;
+        score = 00;
         audioSource = GetComponent<AudioSource>();
     }
     void FixedUpdate()

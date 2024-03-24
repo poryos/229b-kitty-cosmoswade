@@ -13,7 +13,7 @@ public class Endcredit : MonoBehaviour
     public AudioClip itemSound1;
     void Start()
     {
-        score1 = 0;
+        score1 = 00;
         audioSource1 = GetComponent<AudioSource>();
     }
 
