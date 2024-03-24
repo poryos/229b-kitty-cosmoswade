@@ -429,7 +429,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 34, y: -3085}
+  m_AnchoredPosition: {x: 34, y: -3343}
   m_SizeDelta: {x: 123.06, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!75 &399315387
@@ -604,8 +604,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "1650703018 Nawapol Nantajul\r        \nSec229B No.19\nProgrammer, Game
-    Designer , UI "
+  m_text: "165070044  Nattapon Seubyim\r    \nSec229B No.5\nGame Designer"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -787,7 +786,8 @@ MonoBehaviour:
     Loading Screen VFX FREE: https://assetstore.unity.com/packages/vfx/particles/sci-fi-loading-screen-vfx-free-274790
     \n\nAntarctic Meteorite Sample MIL 15307,0: https://sketchfab.com/3d-models/antarctic-meteorite-sample-mil-153070-d067affbb590492f80ca6b81b280c012
     \n\nPlanet : https://sketchfab.com/3d-models/planet-0104234961624b7aa0cb85d03161babe\n\nSpaceship
-    : https://sketchfab.com/3d-models/spaceship-bad08e5cfbfb4f149b1e23d618b95774\n\n"
+    : https://sketchfab.com/3d-models/spaceship-bad08e5cfbfb4f149b1e23d618b95774\n\nspaceship
+    2D : https://www.megavoxels.com/learn/how-to-make-a-pixel-art-spaceship/#google_vignette\n\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
