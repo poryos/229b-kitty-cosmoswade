@@ -18,12 +18,12 @@ public class Score : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
-        if (score == 77)
+        if (score == 50)
         {
             SceneManager.LoadScene(2);
             Debug.Log("kuyyyyyy");
         }
-		if (score == 78)
+		if (score == 51)
         {
             SceneManager.LoadScene(2);
         }

@@ -17236,7 +17236,7 @@ MonoBehaviour:
   minPitchAngle: -360
   bulletPrefab: {fileID: 5741794791173699484, guid: 9d68722f6d181224eb11ee6e4b479382, type: 3}
   bulletSpawnPoint: {fileID: 325133073}
-  bulletSpeed: 500
+  bulletSpeed: 750
 --- !u!54 &1161706151
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -25588,9 +25588,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: '/50
-
-'
+  m_Text: /30
 --- !u!222 &1672422294
 CanvasRenderer:
   m_ObjectHideFlags: 0

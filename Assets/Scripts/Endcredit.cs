@@ -20,17 +20,13 @@ public class Endcredit : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
-        if (score1 == 50)
+        if (score1 == 30)
         {
             SceneManager.LoadScene(3);
         }
-        if (score1 == 51)
+        if (score1 == 31)
         {
             SceneManager.LoadScene(3);
-        }
-    	 if (Input.GetKeyUp(KeyCode.U))
-        {
-            score1 = 45;
         }
     }
 
